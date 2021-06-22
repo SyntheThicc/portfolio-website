@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rock+Salt&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+  background-color: #030303;
+  height: 100vh;
+  width: 100%;
+}
+
+@media (max-width: 411px) {
+  html {
+    font-size: 85%;
+  }
+}
+@media (max-width: 320px) {
+  html {
+    font-size: 75%;
+  }
+}
